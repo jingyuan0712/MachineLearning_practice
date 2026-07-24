@@ -21,16 +21,16 @@
 
 ```mermaid
 graph TD
-    subgraph 傳統程式設計 (Traditional Programming)
-        A[資料 Data] --> C[程式/規則 Rules]
-        B[規則 Rules] --> C
-        C --> D[答案 Answers]
+    subgraph id1 ["傳統程式設計 (Traditional Programming)"]
+        A["資料 Data"] --> C["程式/規則 Rules"]
+        B["規則 Rules"] --> C
+        C --> D["答案 Answers"]
     end
 
-    subgraph 機器學習 (Machine Learning)
-        E[資料 Data] --> G[機器學習演算法]
-        F[答案 Answers] --> G
-        G --> H[規則/模型 Rules]
+    subgraph id2 ["機器學習 (Machine Learning)"]
+        E["資料 Data"] --> G["機器學習演算法"]
+        F["答案 Answers"] --> G
+        G --> H["規則/模型 Rules"]
     end
     
     style C fill:#f9f,stroke:#333,stroke-width:2px
